@@ -1,13 +1,13 @@
 {
-  "name": "sch-backbone-starter",
-  "author": "Scholastic, Inc.",
+  "name": "backbone-bootstrap3-skeleton",
+  "author": "ZevDesigns",
   "description": "A collection of scripts using brunch.io to kickstart and compile backbone & bootstrap projects.",
   "version": "0.0.1",
   "homepage": "",
   "contributors": [ 
     {
       "name": "Corey Zev Holland",
-      "email": "cholland-consultant@scholastic.com"
+      "email": "coreyzev@zevdesigns.com"
     } 
   ],
   "repository": {
