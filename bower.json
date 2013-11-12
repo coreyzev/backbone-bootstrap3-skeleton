@@ -1,0 +1,37 @@
+{
+  "name": "sch-backbone-starter",
+  "version": "0.0.1",
+  "main": "public/javascripts/app.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "backbone": "~1.0.0",
+    "backbone.marionette": "~1.1.0",
+    "backbone.localStorage": "~1.1.6",
+    "underscore": "~1.5.2",
+    "console-polyfill": "~0.1.0",
+    "jquery": "~2.0.3",
+    "moment": "~2.2.1"
+  },
+  "overrides": {
+    "backbone": {
+      "dependencies": {
+        "underscore": "*",
+        "jquery": "*"
+      },
+      "main": "backbone.js"
+    },
+    "underscore": {
+      "main": "underscore.js"
+    },
+    "jquery": {
+      "main": "jquery.js"
+    },
+    "backbone.localStorage": {
+      "main": "backbone.localStorage.js"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-framework="marionettejs">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Backbone.Marionette & Nodejs • TodoMVC</title>
+		<link rel="stylesheet" href="../stylesheets/app.css">
+		<link rel="stylesheet" href="stylesheets/test.css">
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+		      <div class="navbar-inner">
+		        <div class="container">
+		        	<div class="container">
+							  <div class="navbar-header">
+							    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							      <span class="icon-bar"></span>
+							      <span class="icon-bar"></span>
+							      <span class="icon-bar"></span>
+							    </button>
+							    <a class="navbar-brand" href="/">Website</a>
+							  </div>
+							  <div class="navbar-collapse collapse">
+							    <ul class="nav navbar-nav">
+							      <li class="{{#if homeActive }}active{{/if}}"><a href="/">Home</a></li>
+							    </ul>
+							  </div>
+							</div>
+		        </div>
+		      </div>
+		    </div>
+		<section id="todoapp">
+			<header id="header">
+			</header>
+			<section id="main">
+			</section>
+			<footer id="footer">
+			</footer>
+		</section>
+		<footer id="info">
+			<p>Double-click to edit a todo</p>
+			<p>By <a href="http://todomvc.com/">TodoMCV</a></p>
+		</footer>
+    <script src="javascripts/app.js"></script>
+    <script src="../javascripts/vendor.js"></script>
+    <script src="javascripts/vendor.js"></script>
+  	<script>require('test/app/initialize');</script>
+	</body>
+</html>
