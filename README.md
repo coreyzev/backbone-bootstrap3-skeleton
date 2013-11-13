@@ -16,7 +16,7 @@ Every dependency is installed & compiled with a single command.
 
 
 ## Getting started
-* `npm install -g brunch`
+* `sudo npm install -g brunch`
 * Create new project by executing `brunch new git@github.com:coreyzev/backbone-bootstrap3-skeleton.git <new project name>`
 * Build the project with `brunch b` or for minified files `brunch b -P`.
 * Watch the project with  `brunch w`

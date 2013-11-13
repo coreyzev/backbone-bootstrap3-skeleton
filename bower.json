@@ -1,5 +1,5 @@
 {
-  "name": "sch-backbone-starter",
+  "name": "backbone-bootstrap3-skeleton",
   "version": "0.0.1",
   "main": "public/javascripts/app.js",
   "ignore": [
@@ -18,11 +18,11 @@
   },
   "overrides": {
     "backbone": {
+      "main": "backbone.js",
       "dependencies": {
         "underscore": "*",
         "jquery": "*"
-      },
-      "main": "backbone.js"
+      }
     },
     "underscore": {
       "main": "underscore.js"

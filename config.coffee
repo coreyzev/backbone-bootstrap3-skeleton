@@ -3,7 +3,7 @@ exports.config =
     javascripts:
       joinTo:
         'javascripts/app.js': /^app/
-        'javascripts/vendor.js': /^(bower_components|vendor)[\\/](?!metro)/
+        'javascripts/vendor.js': /^(bower_components|vendor)/
         'test/javascripts/app.js': /^test[\\/](?!vendor)/
         'test/javascripts/vendor.js': /^test[\\/](?=vendor)/
 
@@ -32,7 +32,7 @@ exports.config =
 
     stylesheets:
       joinTo: 
-        'stylesheets/app.css': /^(app|vendor)[\\/](?!metro)/
+        'stylesheets/app.css': /^(app|vendor)/
         'test/stylesheets/test.css': /^test/
       order:
         before: [
